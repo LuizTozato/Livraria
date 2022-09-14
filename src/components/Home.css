@@ -1,0 +1,7 @@
+.home-root{
+    margin-top: var(--header-height);
+    height: auto;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+}
