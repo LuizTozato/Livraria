@@ -1,0 +1,27 @@
+.footer-root {
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-root > *{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-root a:link, a:visited, a:active {
+    text-decoration: none ;
+    color: white;
+}
+
+.footer-root a:hover {
+    text-decoration: none ;
+    color: rgb(215, 215, 215);
+}

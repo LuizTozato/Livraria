@@ -1,5 +1,6 @@
 :root {
   --header-height: 98px;
+  --azul-identidade-visual: rgb(0, 157, 172);
 
   --shadow:
     0 2px 23px 0 rgba(0, 0, 255, 0.1),

@@ -1,7 +1,23 @@
-.home-root{
+.home-root {
     margin-top: var(--header-height);
-    height: auto;
-    width: auto;
+    margin-bottom: 40px;
+    height: 100%;
+    width: 100%;
     padding: 10px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anuncio-root {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-auto-rows: 200px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.container-anuncio {
+    
 }

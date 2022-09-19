@@ -1,34 +1,31 @@
 import React from "react";
 import './Home.css'
+import Anuncio from "../elements/Anuncio";
 
 const Home = () => {
 
     return (
         <div className="home-root">
-            <p>Hello World 1!</p>
-            <p>Hello World 2!</p>
-            <p>Hello World 3!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
-            <p>Hello World 4!</p>
+            <div className="anuncio-root">
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+                <Anuncio/>
+            </div>
             
         </div>
     )

@@ -1,15 +1,19 @@
 import './App.css';
 import Header from './components/Header';
-import Home from './components/Home';
-
+import Rotas from './Router';
+import Footer from './components/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Home/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header/>
+        <Rotas/>
+        <Footer/>
+      </div>    
+    </BrowserRouter>
   )
 }
 
