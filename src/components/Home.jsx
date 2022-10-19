@@ -9,24 +9,7 @@ const Home = () => {
             <div className="anuncio-root">
                 <Anuncio/>
                 <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
-                <Anuncio/>
             </div>
-            
         </div>
     )
 

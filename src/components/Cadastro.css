@@ -1,3 +1,27 @@
 .cadastro-root {
     margin-top: var(--header-height);
+    margin-bottom: 50px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px outset gray;
+    border-radius: 10px;
+}
+
+.cadastro-form * {
+    margin: 10px;
+    padding: 10px;
+}
+
+.pre_visualizacao{
+    object-fit: contain;
+    height: 300px;
+    height: 300px;
 }

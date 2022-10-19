@@ -1,6 +1,31 @@
 .container-anuncio {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 5px;
     padding: 5px;
     border: 1px solid black;
+}
+
+.container-anuncio * {
+    padding-bottom: 10px;
+}
+
+.titulo {
+
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.livro-img {
+    max-height: 180px;
+    max-width: 100%;
+}
+
+.botao-comprar {
+    padding: 5px;
+    width: 100%;
 }

@@ -4,9 +4,10 @@ const Anuncio = () => {
 
     return (
         <div className="container-anuncio">
-            <p>Título do Livro</p>
-            <h3>Preço: R$00.00</h3>
-            <button>Comprar</button>
+            <div className="titulo">Título do Livro</div>
+            <div className='preco'>Preço: R$00.00</div>
+            <img className="livro-img" src="http://localhost/livraria_backend/uploads/633b728113cc8.png"/>
+            <button className='botao-comprar'>Comprar</button>
         </div>
     )
 
