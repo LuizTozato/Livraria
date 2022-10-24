@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div className="home-root">
             <div className="anuncio-root">
-                <Anuncio/>
-                <Anuncio/>
+                <Anuncio nome={"Titulo"} preco={100} src={"63508f42e6179.png"}/>
+                
             </div>
         </div>
     )

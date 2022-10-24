@@ -41,6 +41,7 @@ const Cadastro = () => {
         console.log(selectedFile)
 
         axios.post(DB_HOST_NAME, formData)
+        .then(resp => console.log(resp))
 
     }
 
