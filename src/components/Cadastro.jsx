@@ -38,7 +38,11 @@ const Cadastro = () => {
             selectedFile
         )
 
-        console.log(selectedFile)
+        //console.log(selectedFile)
+        // Display the key/value pairs
+        for (var pair of formData.entries()) {
+            console.log(pair[0]+ ', ' + pair[1]); 
+        }
 
         axios.post(DB_HOST_NAME, formData)
         .then(resp => console.log(resp))
