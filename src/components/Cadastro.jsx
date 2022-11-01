@@ -45,7 +45,7 @@ const Cadastro = () => {
         }
 
         axios.post(DB_HOST_NAME, formData)
-        .then(resp => console.log(resp))
+        .then(resp => console.log(resp.data))
 
     }
 
